@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forja de Rol</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    
+<header>
+
+    <div class="contenedor barra-nav">
+        <div class="logo">Forja de Rol</div>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#heroes">Héroes</a></li>
+            <li><a href="#resenas">Reseñas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    </div>
+
+</header>
+
+<main>
+
+<section id="inicio" class="hero">
+    <h1>Tu Próxima Aventura va a Comenzar. Elegí tu Héroe!</h1>
+    <p>Personajes listos para jugar</p>
+    <a href="#heroes" class="boton">Ver Héroes</a>
+</section>
+
+<section id="heroes" class="contenedor">
+    <h2 class="titulo-seccion">Nuestros Héroes</h2>
+
+    <div class="fila-heroes">
+
+        <article class="card">
+            <img src="img/guerrera.jpg" alt="Guerrera">
+            <div class="card-info">
+                <span class="categoria">Guerrera</span>
+                <p>Armadura y espada larga</p>
+                <button>Seleccionar</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="img/mago.jpg" alt="Mago">
+            <div class="card-info">
+                <span class="categoria">Mago</span>
+                <p>Libro de conjuros y báculo</p>
+                <button>Seleccionar</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="img/arquera.jpg" alt="Arquera">
+            <div class="card-info">
+                <span class="categoria">Exploradora</span>
+                <p>Arco y carcaj con flechas</p>
+                <button>Seleccionar</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <img src="img/picaro.jpg" alt="Pícaro">
+            <div class="card-info">
+                <span class="categoria">Pícaro</span>
+                <p>Dagas y ataque furtivo</p>
+                <button>Seleccionar</button>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section id="resenas" class="contenedor">
+    <h2 class="titulo-seccion">Reseñas</h2>
+
+    <div class="grilla-resenas">
+
+        <blockquote>
+            <p>Muy claro para empezar a jugar</p>
+            <strong>Lucía</strong>
+        </blockquote>
+        <blockquote>
+            <p>Toda la party lo usa</p>
+            <strong>Tomás</strong>
+        </blockquote>
+        <blockquote>
+            <p> Armé un personaje en 10 min!</p>
+            <strong>Sofía</strong>
+        </blockquote>
+
+    </div>
+</section>
+
+<section id="contacto" class="contenedor">
+    <h2 class="titulo-seccion">Contacto</h2>
+
+    <div class="bloque-contacto">
+
+        <form action="https://formspree.io/f/xyezvlkn" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        
+            <button type="submit">Enviar mensaje</button>
+        </form>
+        <div class="mapa">
+
+        <iframe
+        src="https://www.google.com/maps?q=Obelisco%20de%20Buenos%20Aires&z=16&output=embed"
+        title="Mapa del Obelisco de Buenos Aires"
+        loading="lazy"
+        allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+</section>
+</main>
+
+<footer>
+    <div class="contenedor footer-columnas">
+
+        <div class="columna">
+
+            <h4>Forja de Rol</h4>
+            <p>Proyecto de ejemplo para el curso Front - End JS Talento Tech</p>
+
+        </div>
+
+        <div class="columna">
+
+            <h4>Contacto</h4>
+            <ul>
+                <li><i class="fa-solid fa-envelope"></i> info@forjaderol.com</li>
+                <li><i class="fa-solid fa-location-dot"></i> Obelisco, CABA - Argentina</li>
+            </ul>
+            
+        </div>
+
+        <div class="columna">
+            <h4>Seguinos</h4>
+
+            <div class="redes">
+
+                <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <p>Forja de Rol. Datos de contacto ficticios. 2026</p>
+</footer>
+
+</body>
+</html>
